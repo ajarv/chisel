@@ -1,6 +1,6 @@
 # build stage
 FROM golang:alpine AS build-env
-LABEL maintainer="dev@jpillora.com"
+LABEL maintainer="ajarv@hotmail.com"
 RUN apk update
 RUN apk add git
 ENV CGO_ENABLED 0
